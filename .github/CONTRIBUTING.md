@@ -4,10 +4,6 @@ Thanks for helping out! 😇
 
 * Make sure the issue hasn't been raised yet
 * Include **screenshots** and animated GIFs in your issue whenever possible
-* Tag your issue accordingly:
-    * is it about **Bulma** or about the **Docs**?
-    * is it a **Bug**, a **Feature**, a **Question**, or do you need **Help**?
-    * if it's a bug, is it a **Browser Bug** (only happens in one browser)?
 
 ### Submitting a Pull Request
 
@@ -16,6 +12,17 @@ Thanks for helping out! 😇
 * Use the **imperative** mood ("Move cursor to..." not "Moves cursor to...")
 * Limit the first line to 72 characters or fewer
 * Reference issues and pull requests liberally
+
+### Try your changes
+
+When modifying any `.sass`, you will need to rebuild the css. You can do this by running:
+
+```
+npm install
+npm run build
+```
+
+To see documentation changes check [the documentation readme](../docs/README.md).
 
 ### Bulma Sass styleguide
 
@@ -28,7 +35,7 @@ Thanks for helping out! 😇
   * nested tags
   * pseudo-classes
   * color modifiers
-  * size modifers
+  * size modifiers
   * modifiers
   * responsive styles
 * Add appropriate one-line comments for each of these sections within a CSS rule
